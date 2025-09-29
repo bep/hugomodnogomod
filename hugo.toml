@@ -1,0 +1,9 @@
+title = "Hugo module with no go.mod"
+
+[params]
+    nomod = "A Hugo module without a go.mod file"
+
+[module]
+    [[module.mounts]]
+        source = "assets"
+        target = "assets"
